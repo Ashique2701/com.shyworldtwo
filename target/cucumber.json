@@ -1,0 +1,70 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Logo presence on OrangeHRM home page",
+        "description": "",
+        "id": "orangehrm-login;logo-presence-on-orangehrm-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11243503700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Launch chrome browser",
+            "match": {
+              "location": "StepDif.launch_chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 465919300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Open orange hrm homepage",
+            "match": {
+              "location": "StepDif.open_orange_hrm_homepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2143718100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify that the logo present on page",
+            "match": {
+              "location": "StepDif.verify_that_the_logo_present_on_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1165416200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Close Browser",
+            "match": {
+              "location": "StepDif.close_Browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "OrangeHRM Login",
+    "description": "",
+    "id": "orangehrm-login",
+    "keyword": "Feature",
+    "uri": "loginorange.feature"
+  }
+]
